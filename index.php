@@ -71,10 +71,11 @@
             <table class="table table-striped table-hover" id="userTable">
                 <thead>
                     <tr>
-                        <th>#</th>
+                        <th>S.N</th>
                         <th>Name</th>
                         <th>Date of Birth</th>
                         <th>Address</th>
+                        <th>Email</th>
                         <th>Chanting Round</th>
                         <th>Attendance</th>
                         <th>Actions</th>
@@ -86,6 +87,7 @@
                         <td><a href="#">Anil Gurung</a></td>
                         <td>2056-02-27</td>
                         <td>Chitwan</td>
+                        <td>apilneupane19@gmail.com</td>
                         <td>5</td>
                         <td>
                             <button class="btn btn-success btn-attendance" onclick="increaseAttendance(this)">+</button>
@@ -101,6 +103,7 @@
                         <td>2</td>
                         <td><a href="#">Madan Rana</a></td>
                         <td>2056-02-27</td>                        
+                        <td>Bharatpur-12</td>
                         <td>Bharatpur-12</td>
                         <td>10</td>
                         <td>
@@ -118,6 +121,7 @@
                         <td><a href="#">Hari Sapkota</a></td>
                         <td>2059-02-27</td>                        
                         <td>Gaindakot-7</td>
+                        <td>Gaindakot-7</td>
                         <td>1</td>
                         <td>
                             <button class="btn btn-success btn-attendance" onclick="increaseAttendance(this)">+</button>
@@ -133,6 +137,7 @@
                         <td>4</td>
                         <td><a href="#">Apil Neupane</a></td>
                         <td>2059-02-27</td>                        
+                        <td>Bharatpur-7</td>
                         <td>Bharatpur-7</td>
                         <td>10</td>
                         <td>
@@ -163,8 +168,6 @@
     </div>
 </div>     
 
-<script>
-
-</script>
+<script src="script.js"></script>
 </body>
 </html>
