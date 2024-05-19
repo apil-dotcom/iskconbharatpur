@@ -28,13 +28,13 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Prasadam</a>
+        <a class="nav-link" href="prasadam.php">Prasadam</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Classes</a>
+        <a class="nav-link" href="classes.php">Classes</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Aarati</a>
@@ -90,9 +90,9 @@
                         <td>apilneupane19@gmail.com</td>
                         <td>5</td>
                         <td>
-                            <button class="btn btn-success btn-attendance" onclick="increaseAttendance(this)">+</button>
+                        <button class="btn btn-danger btn-attendance" onclick="decreaseAttendance(this)">-</button>
                             <span class="attendance-count">0</span>
-                            <button class="btn btn-danger btn-attendance" onclick="decreaseAttendance(this)">-</button>
+                            <button class="btn btn-success btn-attendance" onclick="increaseAttendance(this)">+</button>
                         </td>
                         <td>
                             <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
@@ -107,9 +107,9 @@
                         <td>Bharatpur-12</td>
                         <td>10</td>
                         <td>
-                            <button class="btn btn-success btn-attendance" onclick="increaseAttendance(this)">+</button>
+                        <button class="btn btn-danger btn-attendance" onclick="decreaseAttendance(this)">-</button>
                             <span class="attendance-count">0</span>
-                            <button class="btn btn-danger btn-attendance" onclick="decreaseAttendance(this)">-</button>
+                            <button class="btn btn-success btn-attendance" onclick="increaseAttendance(this)">+</button>
                         </td>
                         <td>
                             <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
@@ -124,9 +124,9 @@
                         <td>Gaindakot-7</td>
                         <td>1</td>
                         <td>
-                            <button class="btn btn-success btn-attendance" onclick="increaseAttendance(this)">+</button>
+                        <button class="btn btn-danger btn-attendance" onclick="decreaseAttendance(this)">-</button>
                             <span class="attendance-count">0</span>
-                            <button class="btn btn-danger btn-attendance" onclick="decreaseAttendance(this)">-</button>
+                            <button class="btn btn-success btn-attendance" onclick="increaseAttendance(this)">+</button>
                         </td>
                         <td>
                             <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
@@ -141,9 +141,9 @@
                         <td>Bharatpur-7</td>
                         <td>10</td>
                         <td>
-                            <button class="btn btn-success btn-attendance" onclick="increaseAttendance(this)">+</button>
-                            <span class="attendance-count">0</span>
                             <button class="btn btn-danger btn-attendance" onclick="decreaseAttendance(this)">-</button>
+                            <span class="attendance-count">0</span>
+                            <button class="btn btn-success btn-attendance" onclick="increaseAttendance(this)">+</button>
                         </td>
                         <td>
                             <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
