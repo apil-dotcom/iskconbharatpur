@@ -1,13 +1,14 @@
 body {
-    color: #566787;
-    background: #f5f5f5;
-    font-family: 'Varela Round', sans-serif;
+    color: #333; color: #333; 
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
     font-size: 13px;
-    
 }
+
 .table-responsive {
     margin: 30px 0;
 }
+
 .table-wrapper {
     min-width: 1000px;
     background: #fff;
@@ -15,92 +16,113 @@ body {
     border-radius: 3px;
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
+
 .table-title {
     padding-bottom: 15px;
-    background: #299be4;
+    background: #2f034a;
     color: #fff;
     padding: 16px 30px;
     margin: -20px -25px 10px;
     border-radius: 3px 3px 0 0;
 }
+
 .table-title h2 {
     margin: 5px 0 0;
     font-size: 24px;
+    color:#e3e3e3;
 }
+
 .table-title .btn {
-    color: #566787;
+    color: #fff;
     float: right;
     font-size: 13px;
-    background: #fff;
+    background: #28a745;
     border: none;
     min-width: 50px;
     border-radius: 2px;
     outline: none !important;
     margin-left: 10px;
 }
+
 .table-title .btn:hover, .table-title .btn:focus {
-    color: #566787;
-    background: #f2f2f2;
+    color: #fff;
+    background:  #218838;
 }
+
 .table-title .btn i {
     float: left;
     font-size: 21px;
     margin-right: 5px;
 }
+
 .table-title .btn span {
     float: left;
     margin-top: 2px;
 }
+
 table.table tr th, table.table tr td {
     border-color: #e9e9e9;
     padding: 12px 15px;
     vertical-align: middle;
 }
+
 table.table tr th:first-child {
     width: 60px;
 }
+
 table.table tr th:last-child {
     width: 180px;
 }
+
 table.table-striped tbody tr:nth-of-type(odd) {
     background-color: #fcfcfc;
 }
+
 table.table-striped.table-hover tbody tr:hover {
     background: #f5f5f5;
 }
+
 table.table th i {
     font-size: 13px;
     margin: 0 5px;
     cursor: pointer;
-}   
+}
+
 table.table td:last-child i {
     opacity: 0.9;
     font-size: 22px;
     margin: 0 5px;
 }
+
 table.table td a {
     font-weight: bold;
     color: #566787;
     display: inline-block;
     text-decoration: none;
 }
+
 table.table td a:hover {
     color: #2196F3;
 }
+
 table.table td a.settings {
     color: #2196F3;
 }
+
 table.table td a.delete {
     color: #F44336;
 }
+
 table.table td i {
     font-size: 19px;
 }
+
 table.table .btn-attendance {
     margin: 0 5px;
     padding: 5px 10px;
     font-size: 12px;
 }
+
 .status {
     font-size: 30px;
     margin: 2px 2px 0 0;
@@ -108,22 +130,28 @@ table.table .btn-attendance {
     vertical-align: middle;
     line-height: 10px;
 }
+
 .text-success {
     color: #10c469;
 }
+
 .text-info {
     color: #62c9e8;
 }
+
 .text-warning {
     color: #FFC107;
 }
+
 .text-danger {
     color: #ff5b5b;
 }
+
 .pagination {
     float: right;
     margin: 0 0 5px;
 }
+
 .pagination li a {
     border: none;
     font-size: 13px;
@@ -136,22 +164,28 @@ table.table .btn-attendance {
     text-align: center;
     padding: 0 6px;
 }
+
 .pagination li a:hover {
     color: #666;
-}   
+}
+
 .pagination li.active a, .pagination li.active a.page-link {
     background: #03A9F4;
 }
-.pagination li.active a:hover {        
+
+.pagination li.active a:hover {
     background: #0397d6;
 }
+
 .pagination li.disabled i {
     color: #ccc;
 }
+
 .pagination li i {
     font-size: 16px;
     padding-top: 6px
 }
+
 .hint-text {
     float: left;
     margin-top: 10px;
@@ -159,26 +193,121 @@ table.table .btn-attendance {
 }
 
 .navbar-brand img {
-    max-width: 100px; /* Adjust the max-width as needed */
+    max-width: 100px;
     height: auto;
-    background: transparent; /* Ensure background is transparent */
+    background: transparent;
 }
 
 .navbar-white {
     background-color: whitesmoke;
     color: black;
 }
+
 .navbar-black .navbar-nav .nav-link {
     color: white;
 }
+
 .navbar-nav .nav-link {
     font-size: 1rem;
     color: black;
     cursor: pointer;
 }
+
 .navbar-nav .nav-item .nav-link:hover {
-    color: purple;
+    color: #2f034a;
 }
-footer{
+
+footer {
     text-align: center;
 }
+
+
+body {
+    background-color: #f8f9fa; /* Light background color for better contrast */
+    color: #333; /* Dark text color for better readability */
+    font-family: Arial, sans-serif;
+}
+h2 {
+    color: #2c3e50; /* Darker heading color */
+    font-weight: bold;
+}
+.form-group label {
+    color: #2c3e50; /* Darker label color */
+    font-weight: bold;
+}
+.form-check-label {
+    color: #2c3e50; /* Darker label color */
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+#result {
+    background-color: #ffffff;
+    color: #333;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#result h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50; /* Darker heading color */
+}
+#result ul {
+    list-style-type: none;
+    padding: 0;
+}
+#result li {
+    font-size: 18px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+    h2 {
+        color: #2c3e50; /* Darker heading color */
+        font-weight: bold;
+    }
+    .form-group label {
+        color: #2c3e50; /* Darker label color */
+        font-weight: bold;
+    }
+    .form-check-label {
+        color: #2c3e50; /* Darker label color */
+        font-weight: bold;
+    }
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #004085;
+    }
+    #result {
+        background-color: #ffffff;
+        color: #333;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    #result h3 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #2c3e50; /* Darker heading color */
+    }
+    #result ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    #result li {
+        font-size: 18px;
+        padding: 5px 0;
+        border-bottom: 1px solid #ddd;
+    }

@@ -1,2 +1,2 @@
-<?php
-require "./requires/header.php" ;
+<?php include './requires/header.php';
+include './requires/navbar.php';

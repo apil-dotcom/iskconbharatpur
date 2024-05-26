@@ -1,6 +1,7 @@
-<?php
-require "./requires/header.php"; ?>
-<!-- Table yaa bata suru -->
+<?php include './requires/header.php';
+include './requires/navbar.php';
+?>
+<!-- Table starts here -->
 <div class="container-xl">
     <div class="table-responsive">
         <div class="table-wrapper">
@@ -86,7 +87,6 @@ require "./requires/header.php"; ?>
                             <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
                         </td>
                     </tr>
-                    
                 </tbody>
             </table>
             <div class="clearfix">
@@ -104,9 +104,8 @@ require "./requires/header.php"; ?>
         </div>
     </div>
 </div>
-<script src="script.js"></script>
-<?php
-require "./requires/footer.php" ?>
+
+<?php include './requires/footer.php'; ?>
 </body>
 
 </html>
